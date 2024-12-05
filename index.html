@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="scrool-top-btn">
+        <i class="fa-solid fa-arrow-down fa-rotate-180"></i>
+    </div>
+    <nav>
+        <div class="container">
+            <div class="navFlex">
+                <div class="logo"><a href="index.html"><img src="./img/logo.png" alt=""></a></div>
+                <i class="fa-solid fa-bars" id="bars"></i>
+                <ul class="desktop-menu">
+                    <i class="fa-solid fa-x" id="closebars"></i>
+                    <li><a href="#home" class="active">Bosh Sahifa</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#aboutUs">Biz Haqimizda</a></li>
+                    <li><a href="#contact">Bog'lanish</a></li>
+                </ul>
+
+                <div class="icons">
+                    <div class="shoping-cart">
+                        <i class="fa-solid fa-cart-shopping" id="shopingCart"></i>
+                        <span>0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="home" id="home">
+        <div class="container">
+            <div class="flexHome">
+                <div class="textLeft">
+                    <h1>Oshpazlarga Salom</h1>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores placeat quisquam, dolorum accusamus enim perferendis aperiam eum expedita dolor laboriosam?
+                    </p>
+                    <a href="#videos" class="btn">Let's Start</a>
+                </div>
+                <div class="imgLeft">
+                    <img src="./img/img-hero.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="videos" id="videos">
+        <div class="container">
+            <div class="flexvideos">
+                <div class="side-bar">
+                    <ul class="list">
+                        <li class="active" data-src="./videos/video-1.mp4">Burger Tayyorlash</li>
+                        <li data-src="./videos/video-2.mp4">Pizza Tayyorlash</li>
+                        <li data-src="./videos/video-3.mp4">Sandwich Tayyorlash</li>
+                        <li data-src="./videos/video-5.mp4">Shokolad Tayyorlash</li>
+                        <li data-src="./videos/video-6.mp4">Pirog Tayyorlash</li>
+                    </ul>
+                </div>
+                <div class="video-container">
+                    <video src="./videos/video-1.mp4" loop controls></video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <div class="container">
+            <div class="searchBar">
+                <input type="text" id="searchInput" placeholder="Menudan Izlash">
+            </div>
+            <div class="products">
+                <div class="product">
+                    <img loading="lazy" src="./productImg/yog'.jpg" alt="">
+                    <h3 style="font-size: 25px;">Yog'</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi impedit, necessitatibus quibusdam veniam animi dicta?</p>
+                    <p style="font-size: 30px;">128 900 so'm</p>
+                    <button id="addToCart" class="btn">Savatchaga qo'shish</button>
+                </div>
+                <div class="product">
+                    <img loading="lazy" src="./productImg/guruch.jpg" alt="">
+                    <h3 style="font-size: 25px;">Guruch</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi impedit, necessitatibus quibusdam veniam animi dicta?</p>
+                    <p style="font-size: 30px;">18 990 so'm</p>
+                    <button id="addToCart" class="btn">Savatchaga qo'shish</button>
+                </div>
+                <div class="product">
+                    <img loading="lazy" src="./productImg/grechka.jpg" alt="">
+                    <h3 style="font-size: 25px;">Grechka</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi impedit, necessitatibus quibusdam veniam animi dicta?</p>
+                    <p style="font-size: 30px;">8 990 so'm</p>
+                    <button id="addToCart" class="btn">Savatchaga qo'shish</button>
+                </div>
+                <div class="product">
+                    <img loading="lazy" src="./productImg/coffe.jpg" alt="">
+                    <h3 style="font-size: 25px;">Coffe</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi impedit, necessitatibus quibusdam veniam animi dicta?</p>
+                    <p style="font-size: 30px;">32 020 so'm</p>
+                    <button id="addToCart" class="btn">Savatchaga qo'shish</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog" id="blog">
+        <div class="container">
+            <div id="blog-container"></div>
+        </div>
+    </section>
+
+    <section class="aboutUs" id="aboutUs">
+        <div class="container">
+            <div class="flexAbout">
+                <div class="textAbout">
+                    <h1>Biz haqimizda</h1>
+                    <p>Bizning maqsadimiz — foydalanuvchilar uchun qulay, innovatsion va foydali loyihalar yaratish. Texnologiyalar orqali hayotni yanada oson va samarali qilishga intilamiz. Har bir loyiha bizning sifat va ijodkorlikka bo'lgan sadoqatimizni aks ettiradi.</p>
+                </div>
+                <div class="imgAbout">
+                    <img loading="lazy" src="./img/pexels-iina-luoto-460132-1211887.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="flexContact">
+                <div class="imgContent">
+                    <img loading="lazy" src="./img/contact.jpg" alt="">
+                </div>
+                <div class="contactContent">
+                    <h2>Biz bilan bog'lanish</h2>
+                    <p>Savol yoki takliflaringiz bolsa biz bilan bog'laning</p>
+                    <form action="https://api.web3forms.com/submit" method="POST">
+
+                        <input type="hidden" name="access_key" value="bc39ce29-c163-41ba-bbee-a5eaa7f441b2">
+
+                        <input type="text" placeholder="Ismingiz" name="name" required>
+                        <input type="number" placeholder="Telefon Raqamingiz" name="number" required>
+                        <textarea placeholder="Xabaringiz" required name="message"></textarea>
+                        <button class="btn">
+                            Yuborish
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
